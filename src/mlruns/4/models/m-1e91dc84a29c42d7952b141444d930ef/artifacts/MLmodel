@@ -1,0 +1,22 @@
+artifact_path: "file:///c:/\U0001F495Coding \U0001F495/YT_MLOPS_EXPERIMENT_WITH_MLFLOW/src/mlruns/4/models/m-1e91dc84a29c42d7952b141444d930ef/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-1e91dc84a29c42d7952b141444d930ef
+model_size_bytes: 482175
+model_uuid: m-1e91dc84a29c42d7952b141444d930ef
+prompts: null
+run_id: 0342f5dac72245ab8268ff656c9c5d2d
+utc_time_created: '2026-01-03 02:10:08.248318'
